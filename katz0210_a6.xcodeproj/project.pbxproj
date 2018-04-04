@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		458DD919205B0CAD002C6CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD918205B0CAD002C6CC8 /* AppDelegate.swift */; };
-		458DD91B205B0CAD002C6CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD91A205B0CAD002C6CC8 /* ViewController.swift */; };
+		458DD91B205B0CAD002C6CC8 /* RSSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD91A205B0CAD002C6CC8 /* RSSTableViewController.swift */; };
 		458DD91E205B0CAD002C6CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458DD91C205B0CAD002C6CC8 /* Main.storyboard */; };
 		458DD920205B0CAD002C6CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458DD91F205B0CAD002C6CC8 /* Assets.xcassets */; };
 		458DD923205B0CAD002C6CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458DD921205B0CAD002C6CC8 /* LaunchScreen.storyboard */; };
+		458DD92B205B1633002C6CC8 /* NewsItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD92A205B1633002C6CC8 /* NewsItemCard.swift */; };
+		458DD92D205B1810002C6CC8 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD92C205B1810002C6CC8 /* Deck.swift */; };
+		458DD92F205B1911002C6CC8 /* SharedDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD92E205B1911002C6CC8 /* SharedDeck.swift */; };
+		458DD931205B1CF1002C6CC8 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD930205B1CF1002C6CC8 /* CardTableViewCell.swift */; };
+		458DD933205B489D002C6CC8 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD932205B489D002C6CC8 /* CardViewController.swift */; };
+		458DD935205B4DFF002C6CC8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DD934205B4DFF002C6CC8 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		458DD915205B0CAD002C6CC8 /* katz0210_a6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = katz0210_a6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		458DD918205B0CAD002C6CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		458DD91A205B0CAD002C6CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		458DD91A205B0CAD002C6CC8 /* RSSTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSTableViewController.swift; sourceTree = "<group>"; };
 		458DD91D205B0CAD002C6CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		458DD91F205B0CAD002C6CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		458DD922205B0CAD002C6CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		458DD924205B0CAD002C6CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458DD92A205B1633002C6CC8 /* NewsItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemCard.swift; sourceTree = "<group>"; };
+		458DD92C205B1810002C6CC8 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		458DD92E205B1911002C6CC8 /* SharedDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDeck.swift; sourceTree = "<group>"; };
+		458DD930205B1CF1002C6CC8 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		458DD932205B489D002C6CC8 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		458DD934205B4DFF002C6CC8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				458DD918205B0CAD002C6CC8 /* AppDelegate.swift */,
-				458DD91A205B0CAD002C6CC8 /* ViewController.swift */,
+				458DD91A205B0CAD002C6CC8 /* RSSTableViewController.swift */,
+				458DD932205B489D002C6CC8 /* CardViewController.swift */,
+				458DD934205B4DFF002C6CC8 /* WebViewController.swift */,
+				458DD930205B1CF1002C6CC8 /* CardTableViewCell.swift */,
+				458DD92A205B1633002C6CC8 /* NewsItemCard.swift */,
+				458DD92C205B1810002C6CC8 /* Deck.swift */,
+				458DD92E205B1911002C6CC8 /* SharedDeck.swift */,
 				458DD91C205B0CAD002C6CC8 /* Main.storyboard */,
 				458DD91F205B0CAD002C6CC8 /* Assets.xcassets */,
 				458DD921205B0CAD002C6CC8 /* LaunchScreen.storyboard */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458DD91B205B0CAD002C6CC8 /* ViewController.swift in Sources */,
+				458DD92D205B1810002C6CC8 /* Deck.swift in Sources */,
+				458DD933205B489D002C6CC8 /* CardViewController.swift in Sources */,
+				458DD931205B1CF1002C6CC8 /* CardTableViewCell.swift in Sources */,
+				458DD91B205B0CAD002C6CC8 /* RSSTableViewController.swift in Sources */,
+				458DD92F205B1911002C6CC8 /* SharedDeck.swift in Sources */,
+				458DD92B205B1633002C6CC8 /* NewsItemCard.swift in Sources */,
 				458DD919205B0CAD002C6CC8 /* AppDelegate.swift in Sources */,
+				458DD935205B4DFF002C6CC8 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
